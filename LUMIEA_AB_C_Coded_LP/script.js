@@ -1,0 +1,1 @@
+const modal=document.getElementById('modal');document.querySelectorAll('[data-buy]').forEach(b=>b.addEventListener('click',()=>modal.showModal()));document.querySelectorAll('.close,.dismiss').forEach(b=>b.addEventListener('click',()=>modal.close()));modal.addEventListener('click',e=>{if(e.target===modal)modal.close()});
